@@ -43,57 +43,6 @@ At a high level, SharkLens follows this flow:
 4. Correlate linked evidence across records and timestamps
 5. Return investigation ready findings with traceable supporting evidence
 
-## Public repo contents
-
-This public repository is intended to show the architecture, core logic, safe examples, screenshots, and sanitized outputs.
-
-Recommended public contents:
-
-- Clean source code that is safe to publish
-- Screenshots or demo images inside `docs/screenshots/`
-- Sanitized example inputs inside `sample_data/`
-- Sanitized example outputs inside `sample_outputs/`
-- Documentation that explains logic, evidence handling, and roadmap
-
-## Suggested screenshots for this repo
-
-Add these when you are ready:
-
-1. Main interface or terminal workflow
-2. Host and user extraction result
-3. Evidence correlation view
-4. Report output or summary view
-5. One difficult edge case you solved
-
-## Repository structure
-
-```text
-sharklens/
-  README.md
-  LICENSE
-  .gitignore
-  CHANGELOG.md
-  docs/
-    screenshots/
-  sample_data/
-  sample_outputs/
-  src/
-```
-
-## Before publishing
-
-Review the repo and remove or replace anything sensitive:
-
-- API keys
-- environment files
-- real PCAPs that should not be public
-- internal file paths
-- personal data
-- private notes or draft experiments
-
-## Release notes
-
-See [CHANGELOG.md](CHANGELOG.md).
 
 ## Roadmap
 
