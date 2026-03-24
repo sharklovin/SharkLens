@@ -1,0 +1,59 @@
+# Secrets and environment
+.env
+.env.*
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+secrets/
+credentials/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Node
+node_modules/
+dist/
+build/
+.next/
+.cache/
+
+# Logs and temp
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+
+# OS and editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Evidence and exports
+*.pcap
+*.pcapng
+*.cap
+uploads/
+exports/
+out/
+reports/
+
+# Archives
+*.zip
+*.tar
+*.gz
+*.7z
