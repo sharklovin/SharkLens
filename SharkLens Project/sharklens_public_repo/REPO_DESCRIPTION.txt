@@ -1,1 +1,0 @@
-Cybersecurity investigation tool for extracting host and user context from network evidence, correlating findings, and producing investigation ready outputs.
